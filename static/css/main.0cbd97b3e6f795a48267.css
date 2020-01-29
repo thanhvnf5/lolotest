@@ -1,0 +1,399 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #edeff2;
+  font-family: "Calibri", "Roboto", sans-serif;
+}
+
+.App__chat_window__3q113 {
+  position: absolute;
+  width: calc(100% - 20px);
+  max-width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #fff;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+
+.App__top_menu__2OE9x {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 0 15px;
+  -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+.App__top_menu__2OE9x .App__buttons___YC_6 {
+  margin: 3px 0 0 20px;
+  position: absolute;
+}
+.App__top_menu__2OE9x .App__buttons___YC_6 .App__button__3af-G {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+.App__top_menu__2OE9x .App__buttons___YC_6 .App__button__3af-G.App__close__1nR8g {
+  background-color: #f5886e;
+}
+.App__top_menu__2OE9x .App__buttons___YC_6 .App__button__3af-G.App__minimize__26HfU {
+  background-color: #fdbf68;
+}
+.App__top_menu__2OE9x .App__buttons___YC_6 .App__button__3af-G.App__maximize__2wc4A {
+  background-color: #a3d063;
+}
+.App__top_menu__2OE9x .App__title__jrOXx {
+  text-align: center;
+  color: #bcbdc0;
+  font-size: 20px;
+}
+
+.App__messages__3buvR {
+  position: relative;
+  list-style: none;
+  padding: 20px 10px 0 10px;
+  margin: 0;
+  max-height: 500px;
+  overflow: auto;
+}
+.App__messages__3buvR .App__message__3Du7V {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+.App__messages__3buvR .App__message__3Du7V.App__left__3iN8C .App__avatar__yiZGr {
+  background-color: #f5886e;
+  float: left;
+}
+.App__messages__3buvR .App__message__3Du7V.App__left__3iN8C .App__text_wrapper__29yGS {
+  background-color: #ffe6cb;
+  margin-left: 20px;
+}
+.App__messages__3buvR .App__message__3Du7V.App__left__3iN8C .App__text_wrapper__29yGS::after, .App__messages__3buvR .App__message__3Du7V.App__left__3iN8C .App__text_wrapper__29yGS::before {
+  right: 100%;
+  border-right-color: #ffe6cb;
+}
+.App__messages__3buvR .App__message__3Du7V.App__left__3iN8C .App__text__REZRb {
+  color: #c48843;
+}
+.App__messages__3buvR .App__message__3Du7V.App__right__1uzMw .App__avatar__yiZGr {
+  background-color: #fdbf68;
+  float: right;
+}
+.App__messages__3buvR .App__message__3Du7V.App__right__1uzMw .App__text_wrapper__29yGS {
+  background-color: #c7eafc;
+  margin-right: 20px;
+  float: right;
+}
+.App__messages__3buvR .App__message__3Du7V.App__right__1uzMw .App__text_wrapper__29yGS::after, .App__messages__3buvR .App__message__3Du7V.App__right__1uzMw .App__text_wrapper__29yGS::before {
+  left: 100%;
+  border-left-color: #c7eafc;
+}
+.App__messages__3buvR .App__message__3Du7V.App__right__1uzMw .App__text__REZRb {
+  color: #45829b;
+}
+.App__messages__3buvR .App__message__3Du7V.App__appeared__1H4xU {
+  opacity: 1;
+}
+.App__messages__3buvR .App__message__3Du7V .App__avatar__yiZGr {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.App__messages__3buvR .App__message__3Du7V .App__text_wrapper__29yGS {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 6px;
+  width: calc(100% - 85px);
+  min-width: 100px;
+  position: relative;
+}
+.App__messages__3buvR .App__message__3Du7V .App__text_wrapper__29yGS::after, .App__messages__3buvR .App__message__3Du7V .App__text_wrapper__29yGS:before {
+  top: 18px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.App__messages__3buvR .App__message__3Du7V .App__text_wrapper__29yGS::after {
+  border-width: 13px;
+  margin-top: 0px;
+}
+.App__messages__3buvR .App__message__3Du7V .App__text_wrapper__29yGS::before {
+  border-width: 15px;
+  margin-top: -2px;
+}
+.App__messages__3buvR .App__message__3Du7V .App__text_wrapper__29yGS .App__text__REZRb {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.App__bottom_wrapper__21Q2n {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 20px;
+  position: absolute;
+  bottom: 0;
+}
+.App__bottom_wrapper__21Q2n .App__message_input_wrapper__3GkZT {
+  display: inline-block;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #bcbdc0;
+  width: calc(100% - 160px);
+  position: relative;
+  padding: 0 20px;
+}
+.App__bottom_wrapper__21Q2n .App__message_input_wrapper__3GkZT .App__message_input__j4B3D {
+  border: none;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: calc(100% - 40px);
+  position: absolute;
+  outline-width: 0;
+  color: gray;
+}
+.App__bottom_wrapper__21Q2n .App__send_message__3kNzl {
+  width: 140px;
+  height: 50px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #a3d063;
+  border: 2px solid #a3d063;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  text-align: center;
+  float: right;
+}
+.App__bottom_wrapper__21Q2n .App__send_message__3kNzl:hover {
+  color: #a3d063;
+  background-color: #fff;
+}
+.App__bottom_wrapper__21Q2n .App__send_message__3kNzl .App__text__REZRb {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 48px;
+}
+
+.App__message_template__35f_o {
+  display: none;
+}
+
+.App__ulItem__2-gfD {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App__chooseSheet__1yLql {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;;
+}
+
+.App__choosedSheet__VIRyx {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;;
+  background-color: gray;
+  margin: 2px;
+}
+
+.App__currentSheet__2tQRF {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  background-color: #f5886e;
+}
+
+.App__SheetContainer__21tjt {
+  font-size: x-large;
+}
+
+.App__chooseNumber__2-T6u {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.App__selectedNumbers__1aygp {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.App__winNumbers__wNnpG {
+  color: red;
+  position:relative;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.App__currentNumber__2GUyf {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;
+  color: red;
+  font-size: larger;
+}
+
+.App__groupCode__1MgjP {
+  font-size: larger;
+}
+
+.App__userName__3EHSA {
+  font-size: larger;
+}
+
+.App__numberOfWin__1j1AG {
+  font-size: larger;
+}
+
+.App__button__3af-G {
+  color: #944317;
+  font-size: larger;
+  margin: 0.5em;
+}
+
+.App__inputGroupMessage__3LcAW {
+  font-size: larger;
+}
+
+.App__groupMessages__3WN0K {
+  height: 100px;
+  overflow: auto;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.App__ReactPlayer__3EjDu {
+  width: 0px !important;
+  height: 0px !important;
+}
+
+.App__buttonSetting__3QOGX {
+  /* background-color: transparent; */
+  /* border: none; */
+  /* outline: none; */
+  cursor: pointer;
+  /* font: inherit; */
+  margin: 0px;
+  padding: 0px;
+}
+
+.App__imageSetting__3IPu_ {
+  width: 1.5rem;
+}.Cell__Cell__3wa-2 {
+    width: 30px;
+    text-align: center;
+}
+.Cell__Default__3NuNR {
+    background-color: gray;
+}
+.Cell__Active__2nbVC {
+    background-color: red;
+}
+.Cell__Empty__2bnfv {
+    background-color: black
+}.Row__Row__2bk68 {
+    background-color: gray;
+}.Modal__Modal__32_-a {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 80%;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 1px 1px 1px black;
+            box-shadow: 1px 1px 1px black;
+    padding: 10px;
+    left: 10%;
+    top: 5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+@media (min-width: 600px) {
+    .Modal__Modal__32_-a {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}.Backdrop__Backdrop__efy1y {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}.Button__Button__QI7b2 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Button__Button__QI7b2:first-of-type {
+    /* margin-left: 0;
+    padding-left: 0; */
+}
+
+.Button__Button__QI7b2:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Button__Success__2dHUt {
+    /* color: #5C9210; */
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(207, 118, 173)), to(rgb(212, 6, 119)));
+    background-image: -o-linear-gradient(left, rgb(207, 118, 173) 0%, rgb(212, 6, 119) 100%);
+    background-image: linear-gradient(to right, rgb(207, 118, 173) 0%, rgb(212, 6, 119) 100%);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.Button__Danger__2xnhN {
+    color: #944317;
+}
+
+.Button__Hidden__2ItbY {
+    display: none !important;
+}
+/*# sourceMappingURL=main.0cbd97b3e6f795a48267.css.map*/
