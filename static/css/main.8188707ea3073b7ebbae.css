@@ -311,6 +311,43 @@ body {
 
 .App__imageSetting__3IPu_ {
   width: 1.5rem;
+}
+
+.App__loaderParent__2oK3i {
+  position: fixed;
+  text-align: center;
+  z-index: 500;
+  width: 100vh;
+  height: 50vh;
+}
+.App__loader__1cVgu {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: calc(50% - 50px);
+
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  -webkit-animation: App__spin__13AkT 2s linear infinite;
+          animation: App__spin__13AkT 2s linear infinite;
+}
+
+@-webkit-keyframes App__spin__13AkT {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@keyframes App__spin__13AkT {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+
+
+
+@media (min-width: 600px) {
 }.Cell__Cell__3wa-2 {
     width: 30px;
     text-align: center;
@@ -396,4 +433,4 @@ body {
 .Button__Hidden__2ItbY {
     display: none !important;
 }
-/*# sourceMappingURL=main.0cbd97b3e6f795a48267.css.map*/
+/*# sourceMappingURL=main.8188707ea3073b7ebbae.css.map*/
