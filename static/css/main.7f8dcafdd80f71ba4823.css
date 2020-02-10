@@ -322,10 +322,12 @@ body {
 }
 .App__loader__1cVgu {
   position: fixed;
-  width: 100px;
-  height: 100px;
   top: 50px;
   left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  z-index: 500;
+  text-align: center;
 
   border: 16px solid #f3f3f3; /* Light grey */
   border-top: 16px solid #3498db; /* Blue */
@@ -433,4 +435,4 @@ body {
 .Button__Hidden__2ItbY {
     display: none !important;
 }
-/*# sourceMappingURL=main.8188707ea3073b7ebbae.css.map*/
+/*# sourceMappingURL=main.7f8dcafdd80f71ba4823.css.map*/
