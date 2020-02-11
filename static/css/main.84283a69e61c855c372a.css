@@ -217,7 +217,7 @@ body {
 .App__chooseSheet__1yLql {
   position:relative;
   list-style-type: none;
-  display: inline-block;;
+  display: inline-block;
 }
 
 .App__choosedSheet__VIRyx {
@@ -232,6 +232,16 @@ body {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   background-color: #f5886e;
+}
+
+.App__activeSheet__NNPxe {
+  border-width: 5px;
+  border-style: double;
+  border-color: blue;
+}
+
+.App__readySheet__1wKMY {
+  border-style: dotted;
 }
 
 .App__SheetContainer__21tjt {
@@ -435,4 +445,4 @@ body {
 .Button__Hidden__2ItbY {
     display: none !important;
 }
-/*# sourceMappingURL=main.7f8dcafdd80f71ba4823.css.map*/
+/*# sourceMappingURL=main.84283a69e61c855c372a.css.map*/
