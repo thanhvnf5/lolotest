@@ -246,6 +246,7 @@ body {
 
 .App__SheetContainer__21tjt {
   font-size: x-large;
+  width: 100%;
 }
 
 .App__chooseNumber__2-T6u {
@@ -254,7 +255,26 @@ body {
   display: inline-block;
 }
 
-.App__selectedNumbers__1aygp {
+.App__randomNumbers__2f-YS {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.App__unReadySheets__2SE_3 {
+  position:relative;
+  list-style-type: none;
+  display: inline-block;;
+  background-color: #f5886e;
+  margin: 2px;
+}
+
+.App__historyRounds__3awhC {
+  overflow: auto;
+  height: 80vh;
+}
+
+.App__itemHistoryRounds__1EfoU {
   position:relative;
   list-style-type: none;
   display: inline-block;
@@ -359,7 +379,11 @@ body {
 
 
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
+
+  .App__SheetContainer__21tjt {
+    width: 50%;
+  }
 }.Cell__Cell__3wa-2 {
     width: 30px;
     text-align: center;
@@ -405,44 +429,5 @@ body {
     left: 0;
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
-}.Button__Button__QI7b2 {
-    background-color: transparent;
-    border: none;
-    color: white;
-    outline: none;
-    cursor: pointer;
-    font: inherit;
-    padding: 10px;
-    margin: 10px;
-    font-weight: bold;
 }
-
-.Button__Button__QI7b2:first-of-type {
-    /* margin-left: 0;
-    padding-left: 0; */
-}
-
-.Button__Button__QI7b2:disabled {
-    color: #ccc;
-    cursor: not-allowed;
-}
-
-.Button__Success__2dHUt {
-    /* color: #5C9210; */
-    background-image: -webkit-gradient(linear, left top, right top, from(rgb(207, 118, 173)), to(rgb(212, 6, 119)));
-    background-image: -o-linear-gradient(left, rgb(207, 118, 173) 0%, rgb(212, 6, 119) 100%);
-    background-image: linear-gradient(to right, rgb(207, 118, 173) 0%, rgb(212, 6, 119) 100%);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.Button__Danger__2xnhN {
-    color: #944317;
-}
-
-.Button__Hidden__2ItbY {
-    display: none !important;
-}
-/*# sourceMappingURL=main.84283a69e61c855c372a.css.map*/
+/*# sourceMappingURL=main.8c64e827eea4c138f739.css.map*/
