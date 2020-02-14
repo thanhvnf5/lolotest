@@ -244,6 +244,10 @@ body {
   border-style: dotted;
 }
 
+.App__startSheet__2Z_E3 {
+  border-color: green;
+}
+
 .App__SheetContainer__21tjt {
   font-size: x-large;
   width: 100%;
@@ -343,6 +347,14 @@ body {
   width: 1.5rem;
 }
 
+.App__waitingToJoin__1jye5 {
+  position: relative;
+  text-align: center;
+  margin-top: 30vh;
+  font-size: x-large;
+  color: #944317;
+}
+
 .App__loaderParent__2oK3i {
   position: fixed;
   text-align: center;
@@ -430,4 +442,4 @@ body {
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-/*# sourceMappingURL=main.8c64e827eea4c138f739.css.map*/
+/*# sourceMappingURL=main.94405169063321a61994.css.map*/
