@@ -248,6 +248,17 @@ body {
   border-color: green;
 }
 
+.App__selectSheet__1dmby {
+  border-radius: 20px;
+}
+
+.App__selectedSheet__2VECP {
+  position: fixed;
+  left: 0px;
+  background-color: brown;
+  z-index: 1;
+}
+
 .App__SheetContainer__21tjt {
   font-size: x-large;
   width: 100%;
@@ -442,4 +453,4 @@ body {
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-/*# sourceMappingURL=main.94405169063321a61994.css.map*/
+/*# sourceMappingURL=main.62eb321531717d63d72e.css.map*/
