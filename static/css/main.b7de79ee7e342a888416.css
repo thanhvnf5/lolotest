@@ -412,6 +412,22 @@ body {
   height: 50vh;
 }
 .App__loader__1cVgu {
+  position: fixed;
+  top: 50px;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  z-index: 500;
+  text-align: center;
+
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  -webkit-animation: App__spin__13AkT 2s linear infinite;
+          animation: App__spin__13AkT 2s linear infinite;
+}
+
+.App__videoLoader__1dhLX {
   position: absolute;
   top: 50px;
   left: calc(50% - 50px);
@@ -494,4 +510,4 @@ body {
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-/*# sourceMappingURL=main.8700884b09cdd5c76a80.css.map*/
+/*# sourceMappingURL=main.b7de79ee7e342a888416.css.map*/
