@@ -443,6 +443,10 @@ body {
           animation: App__spin__13AkT 2s linear infinite;
 }
 
+.App__videoUrlActive__3zrxf {
+  color: green;
+}
+
 @-webkit-keyframes App__spin__13AkT {
   0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
@@ -510,4 +514,4 @@ body {
     top: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
-/*# sourceMappingURL=main.b7de79ee7e342a888416.css.map*/
+/*# sourceMappingURL=main.c301a77ab9b694818a9e.css.map*/
